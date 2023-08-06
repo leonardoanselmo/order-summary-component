@@ -14,6 +14,8 @@
 .attribution {
   font-size: 11px;
   text-align: center; 
+  position: fixed;
+  bottom: 4px;
 }
 
 .attribution a { 
