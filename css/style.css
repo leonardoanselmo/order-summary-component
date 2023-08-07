@@ -115,8 +115,6 @@ body {
   color: #FFF; 
 }
 
-/* box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.1); */
-
 .c-product-car__btn-cancel {
   background-color: transparent;
   color: var(--desaturated-blue);
@@ -132,4 +130,10 @@ body {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+  }
 }
