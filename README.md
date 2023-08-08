@@ -25,7 +25,7 @@ Esta é uma solução para o [desafio do Order summary card no Frontend Mentor.]
 ### Links
 
 - [URL da solução no Git](https://github.com/leonardoanselmo/order-summary-component)
-- [URL do site](https://qr-code-component-main-ruddy-seven.vercel.app/)
+- [URL do site](https://order-summary-component-three-pearl.vercel.app/)
 
 ## Meu processo
 
