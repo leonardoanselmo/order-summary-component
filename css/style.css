@@ -119,20 +119,20 @@ body {
 /* Footer */
 
 footer {
-  margin: 0 auto;
-  max-width: 1440px;
-  display: flex;
+  /* margin: 0 auto; */
+  /* max-width: 1440px; */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid red;
+  align-items: center; */
+  /* border: 1px solid red; */
 
 }
 
 .attribution {
   font-size: 11px;
   text-align: center; 
-  position: fixed;
-  bottom: 4px;
+  /* position: fixed; */
+  /* bottom: 0px; */
 }
 
 .attribution a { 
