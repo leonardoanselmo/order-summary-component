@@ -117,6 +117,17 @@ body {
 }
 
 /* Footer */
+
+footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+
+}
+
 .attribution {
   font-size: 11px;
   text-align: center; 
