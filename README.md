@@ -48,9 +48,14 @@ Antes de começar colocando a mão no código resolvi estruturar o **style.css**
 }
 ```
 
-OBS: Veja que deixei o ORDER-SUMMARY centralizado em tamanho e altura. E também a imagem de background, pois no layout mobile a mesma muda.
+OBS: Veja que deixei o ORDER-SUMMARY centralizado em tamanho e altura na classe ``bg-main``, junto com a imagem, pois só queria que a mesma ocupasse a dimensão de ``max-width: 1440px`` ja na tag ``body`` preenchi com uma cor, pois no layout mobile a mesma muda.
 ```css
-body {
+
+body { 
+  background-color: var(--pale-blue);  
+}
+
+bg-main {
   margin: 0 auto;
   max-width: 1440px;
   height: 100vh;
