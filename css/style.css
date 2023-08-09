@@ -9,7 +9,7 @@
   /* Primary */
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
-
+  
   /* Neutral */
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
@@ -20,16 +20,19 @@ img {
   display: block;
 }
 
-body {
+body { 
+  background-color: var(--pale-blue);  
+}
+
+.bg-main {
   margin: 0 auto;
   max-width: 1440px;
   height: 100vh;
   background-image: url('../images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
-  background-color: var(--pale-blue);
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;      
 }
 
 .c-product-card {
