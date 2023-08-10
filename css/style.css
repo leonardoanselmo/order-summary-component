@@ -22,6 +22,7 @@ img {
 
 body { 
   background-color: var(--pale-blue);  
+  position: relative;
 }
 
 .bg-main {
@@ -118,8 +119,13 @@ body {
 }
 
 /* Footer */
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
 .attribution {
-  font-size: 11px;
+  font-size: 0.687rem;
   text-align: center; 
 }
 
